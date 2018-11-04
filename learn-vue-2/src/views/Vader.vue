@@ -29,7 +29,7 @@
     margin-top: 4vh;
   }
   .Clock{
-    background-color: green;
+    background-color: blue;
     width: 20vw;
   }
 </style>
