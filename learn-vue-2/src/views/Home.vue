@@ -6,7 +6,6 @@
     </div>
 
     <div class="Main Clock">
-      hfjak
     </div>
   </div>
 
@@ -23,10 +22,10 @@
 }
 
   .Main {
-    background-color: black;
-    height: calc(100vh - 4vh);
+    background-color: #F6FFFF;
+    height: calc(100vh - 4em);
     width: 80vw;
-    margin-top: 4vh;
+    margin-top: 4em;
   }
   .Clock{
     background-color: green;
