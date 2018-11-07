@@ -33,7 +33,6 @@ body {
   text-align:left;
   position: fixed;
   width: 100vw;
-  height: 3vh;
   a {
     font-size: 1.5em;
     font-weight: bold;
