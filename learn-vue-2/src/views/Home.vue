@@ -15,29 +15,14 @@
 
     <div class="Main Clock">
       <h3>TS Counter</h3>
-      <div>{{count}} is {{isOdd}}</div>
-      <div>
-      <button @click="increment()">INCREMENT</button>
-      </div>
     </div>
   </div>
 
 </template>
 
-<script lang?"ts">
-  import * as Vue from 'vue'
-  import Component from 'vue-class-component'
+<script lang="ts">
 
-  @Component
-  export default class Counter extends Vue {
-    count = 0
-    increment() { this.count++ }
-    get isOdd() {
-      return (this.count%2 === 0) ? 'even' : 'odd'
-    }
-  }
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
@@ -73,7 +58,6 @@
     width: 20vw;
     padding-top: 100px;
   }
-
 
   section.section {
     display: flex;
